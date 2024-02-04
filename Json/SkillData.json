@@ -1,0 +1,337 @@
+{
+	"characters": [{
+			"name": "AssassinRoleSkills",
+			"mySkills": [{
+					"name": "Stealth",
+					"description": "使自己隐蔽起来，避开敌人的视线",
+					"damage": 0,
+					"manaCost": 5
+				},
+				{
+					"name": "Backstab",
+					"description": "从敌人背后发起致命的攻击",
+					"damage": 20,
+					"manaCost": 10
+				},
+				{
+					"name": "PoisonBlade",
+					"description": "用致命的毒液涂抹你的武器",
+					"damage": 15,
+					"manaCost": 8
+				},
+				{
+					"name": "ShadowStep",
+					"description": "瞬间传送到附近的位置",
+					"damage": 0,
+					"manaCost": 12
+				},
+				{
+					"name": "SmokeBomb",
+					"description": "放出一团浓烟以遮挡视线",
+					"damage": 0,
+					"manaCost": 7
+				},
+				{
+					"name": "Evasion",
+					"description": "使用不可思议的敏捷度躲避来自敌人的攻击",
+					"damage": 0,
+					"manaCost": 6
+				},
+				{
+					"name": "Assassinate",
+					"description": "对一个虚弱的敌人进行致命的一击",
+					"damage": 30,
+					"manaCost": 15
+				},
+				{
+					"name": "SilentKill",
+					"description": "悄悄地消灭一个敌人，不会引起其他人的注意",
+					"damage": 25,
+					"manaCost": 10
+				},
+				{
+					"name": "Disguise",
+					"description": "与周围环境融为一体，避免被发现",
+					"damage": 0,
+					"manaCost": 8
+				},
+				{
+					"name": "LethalPrecision",
+					"description": "以致命的精度瞄准要害部位",
+					"damage": 20,
+					"manaCost": 10
+				}
+			]
+		},
+		{
+			"name": "ElementalistRoleskills",
+			"mySkills": [{
+					"name": "Fireball",
+					"description": "发射一颗火球，造成大范围伤害",
+					"damage": 50,
+					"manaCost": 20
+				},
+				{
+					"name": "FrostNova",
+					"description": "释放冰霜能量，冻结周围敌人",
+					"damage": 0,
+					"manaCost": 15
+				},
+				{
+					"name": "ArcaneMissiles",
+					"description": "释放奥术飞弹，连续攻击敌人",
+					"damage": 30,
+					"manaCost": 12
+				},
+				{
+					"name": "Teleport",
+					"description": "瞬间传送到目标位置",
+					"damage": 0,
+					"manaCost": 10
+				},
+				{
+					"name": "MeteorShower",
+					"description": "召唤陨石雨，对范围内的敌人造成巨大伤害",
+					"damage": 70,
+					"manaCost": 25
+				},
+				{
+					"name": "LightningBolt",
+					"description": "释放闪电箭，对单个敌人造成伤害",
+					"damage": 40,
+					"manaCost": 18
+				},
+				{
+					"name": "SummonElemental",
+					"description": "召唤元素生物作为盟友，并攻击敌人",
+					"damage": 0,
+					"manaCost": 30
+				},
+				{
+					"name": "TimeWarp",
+					"description": "扭曲时间，加速自己的行动速度",
+					"damage": 0,
+					"manaCost": 15
+				},
+				{
+					"name": "Explosion",
+					"description": "引爆目标，造成范围性伤害",
+					"damage": 60,
+					"manaCost": 22
+				},
+				{
+					"name": "ArcaneBarrier",
+					"description": "创建一道奥术屏障，减少受到的伤害",
+					"damage": 0,
+					"manaCost": 10
+				}
+			]
+		},
+		{
+			"name": "HolyDarknessRoleskills",
+			"mySkills": [{
+
+					"name": "Fireball",
+					"description": "一个强大的火球，在碰撞时爆炸，对范围内所有敌人造成重创。",
+					"manaCost": 50,
+					"damage": 100
+				},
+				{
+					"name": "FrostRay",
+					"description": "向敌人发射一连串的尖锐冰霜，造成适度伤害并减慢其移动速度。",
+					"manaCost": 30,
+					"damage": 50,
+					"slowDuration": 5,
+					"slowAmount": 0.5
+				},
+				{
+					"name": "HealingLight",
+					"description": "对友方施放治愈之光，随时间恢复大量生命值。",
+					"manaCost": 40,
+					"healAmount": 200,
+					"healDuration": 10
+				},
+				{
+					"name": "ShadowStrike",
+					"description": "通过阴影跃动从敌人背后攻击，造成巨额伤害并使其短暂晕眩。",
+					"manaCost": 60,
+					"damage": 150,
+					"stunDuration": 2
+				},
+				{
+					"name": "Thunderstorm",
+					"description": "召唤猛烈的雷暴，对范围内所有敌人发动闪电打击，造成适度伤害并使其短暂晕眩。",
+					"manaCost": 70,
+					"damage": 80,
+					"stunDuration": 1.5
+				},
+				{
+					"name": "ToxicCloud",
+					"description": "制造一团有毒气体的云，随时间对范围内所有敌人造成伤害，并降低其命中率。",
+					"manaCost": 40,
+					"damage": 30,
+					"duration": 5,
+					"accuracyReduction": 0.5
+				},
+				{
+					"name": "BlessingofProtection",
+					"description": "使友方在短时间内获得无敌状态，免疫所有伤害和负面效果。",
+					"manaCost": 80,
+					"duration": 3
+				},
+				{
+					"name": "SoulDrain",
+					"description": "从敌人身上吸取生命力，造成伤害并恢复施法者的生命值。",
+					"manaCost": 50,
+					"damage": 70,
+					"healAmount": 50
+				},
+				{
+					"name": "FrostNova",
+					"description": "制造一股寒冷的气息，对范围内所有敌人造成伤害并冻结其短暂时间。",
+					"manaCost": 60,
+					"damage": 90,
+					"freezeDuration": 2
+				},
+				{
+					"name": "HolyLight",
+					"description": "召唤神圣之光，对范围内所有敌人造成伤害，并治愈范围内所有友方。",
+					"manaCost": 100,
+					"damage": 120,
+					"healAmount": 150
+				}
+			]
+		},
+		{
+			"name": "SymbioseRoleskills",
+			"mySkills": [{
+
+					"name": "Fireball",
+					"description": "对目标造成10点火焰伤害，消耗5点法力值。",
+					"damage": 10,
+					"manaCost": 5
+				},
+				{
+					"name": "ChainLightning",
+					"description": "对目标及其周围的敌人造成15点雷电伤害，消耗8点法力值。",
+					"damage": 15,
+					"manaCost": 8
+				},
+				{
+					"name": "FrostNova",
+					"description": "制造一片冰霜，对范围内的敌人造成20点冰霜伤害并减缓其移动速度，消耗10点法力值。",
+					"damage": 20,
+					"manaCost": 10
+				},
+				{
+					"name": "VenomSpray",
+					"description": "对目标造成12点自然伤害并使其中毒，在接下来的3回合中每回合受到2点伤害，消耗6点法力值。",
+					"damage": 12,
+					"manaCost": 6
+				},
+				{
+					"name": "Blizzard",
+					"description": "对范围内的敌人造成18点冰霜伤害，并有几率使其冰冻在原地，消耗9点法力值。",
+					"damage": 18,
+					"manaCost": 9
+				},
+				{
+					"name": "ElementalBurst",
+					"description": "对目标造成25点元素伤害，此次伤害的属性随机，消耗12点法力值。",
+					"damage": 25,
+					"manaCost": 12
+				},
+				{
+					"name": "WrathofDestruction",
+					"description": "对目标造成14点暗影伤害，并有几率使其进入恐惧状态，消耗7点法力值。",
+					"damage": 14,
+					"manaCost": 7
+				},
+				{
+					"name": "HolyRadiance",
+					"description": "治疗自己或队友20点生命值，消耗11点法力值。",
+					"damage": -20,
+					"manaCost": 11
+				},
+				{
+					"name": "DragonTail",
+					"description": "对目标造成30点物理伤害，消耗15点法力值。",
+					"damage": 30,
+					"manaCost": 15
+				},
+				{
+					"name": "StormHammer",
+					"description": "对目标造成16点物理伤害并将其击退，消耗8点法力值。",
+					"damage": 16,
+					"manaCost": 8
+				}
+			]
+		},
+		{
+			"name": "WarriorRoleskills",
+			"mySkills": [{
+					"name": "HeavyStrike",
+					"description": "使用重击攻击目标造成15点物理伤害。",
+					"damage": 15,
+					"manaCost": 0
+				},
+				{
+					"name": "ShieldBlock",
+					"description": "举起盾牌格挡敌人的攻击，减少所受伤害50%。",
+					"damage": 0,
+					"manaCost": 0
+				},
+				{
+					"name": "BladeStorm",
+					"description": "挥舞剑刃，对范围内的敌人造成20点物理伤害。",
+					"damage": 20,
+					"manaCost": 0
+				},
+				{
+					"name": "BattleCry",
+					"description": "发出震耳欲聋的战吼，使周围敌人进入混乱状态，持续2回合。",
+					"damage": 0,
+					"manaCost": 5
+				},
+				{
+					"name": "FatalBlow",
+					"description": "发动致命一击，有50%的几率造成双倍伤害。",
+					"damage": 0,
+					"manaCost": 0
+				},
+				{
+					"name": "RageofCourage",
+					"description": "每次受到攻击时，增加自己的攻击力5点，持续3回合。",
+					"damage": 0,
+					"manaCost": 0
+				},
+				{
+					"name": "RevengeStrike",
+					"description": "以复仇之心攻击目标，造成12点物理伤害，并有几率使其流血，每回合受到2点伤害，持续3回合。",
+					"damage": 12,
+					"manaCost": 0
+				},
+				{
+					"name": "FearlessCharge",
+					"description": "勇往直前冲向敌人，对目标造成10点物理伤害，并将其击退。",
+					"damage": 10,
+					"manaCost": 0
+				},
+				{
+					"name": "Execution",
+					"description": "当目标生命值低于30%时，使用斩杀技能对其造成30点物理伤害。",
+					"damage": 30,
+					"manaCost": 0
+				},
+				{
+					"name": "WarFury",
+					"description": "激发内在的战争怒火，增加自己的攻击力和暴击几率20%，持续4回合。",
+					"damage": 0,
+					"manaCost": 10
+				}
+			]
+		}
+
+
+	]
+}

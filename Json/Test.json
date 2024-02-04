@@ -1,0 +1,55 @@
+{
+	"characters": [{
+			"name": "Warrior",
+			"level": 10,
+			"mySkills": [{
+					"name": "Backstab",
+					"description": "Stabs the enemy in the back, dealing extra damage.",
+					"damage": 100,
+					"manaCost": 50
+				},
+				{
+					"name": "Charge",
+					"description": "Charges at the enemy, dealing damage and stunning them.",
+					"damage": 75,
+					"manaCost": 25
+				}
+			]
+		},
+		{
+			"name": "Mage",
+			"level": 8,
+			"mySkills": [{
+					"name": "Fireball",
+					"description": "Launches a fireball at the enemy, dealing damage over time.",
+					"damage": 50,
+					"manaCost": 20
+				},
+				{
+					"name": "Ice Bolt",
+					"description": "Fires a bolt of ice at the enemy, slowing them down.",
+					"damage": 35,
+					"manaCost": 15
+				},
+				{
+					"name": "Thunderstorm",
+					"description": "Summons a thunderstorm to strike the enemy, dealing damage and stunning them.",
+					"damage": 100,
+					"manaCost": 50
+				},
+				{
+					"name": "Heal",
+					"description": "Restores health to the caster or an ally.",
+					"damage": -50,
+					"manaCost": 30
+				},
+				{
+					"name": "Invisibility",
+					"description": "Makes the caster invisible, allowing them to avoid attacks.",
+					"damage": 0,
+					"manaCost": 40
+				}
+			]
+		}
+	]
+}

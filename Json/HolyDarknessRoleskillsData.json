@@ -1,0 +1,73 @@
+{
+	"skills": [{
+			"name": "Fireball",
+			"description": "一个强大的火球，在碰撞时爆炸，对范围内所有敌人造成重创。",
+			"manaCost": 50,
+			"damage": 100
+		},
+		{
+			"name": "FrostRay",
+			"description": "向敌人发射一连串的尖锐冰霜，造成适度伤害并减慢其移动速度。",
+			"manaCost": 30,
+			"damage": 50,
+			"slowDuration": 5,
+			"slowAmount": 0.5
+		},
+		{
+			"name": "HealingLight",
+			"description": "对友方施放治愈之光，随时间恢复大量生命值。",
+			"manaCost": 40,
+			"healAmount": 200,
+			"healDuration": 10
+		},
+		{
+			"name": "ShadowStrike",
+			"description": "通过阴影跃动从敌人背后攻击，造成巨额伤害并使其短暂晕眩。",
+			"manaCost": 60,
+			"damage": 150,
+			"stunDuration": 2
+		},
+		{
+			"name": "Thunderstorm",
+			"description": "召唤猛烈的雷暴，对范围内所有敌人发动闪电打击，造成适度伤害并使其短暂晕眩。",
+			"manaCost": 70,
+			"damage": 80,
+			"stunDuration": 1.5
+		},
+		{
+			"name": "ToxicCloud",
+			"description": "制造一团有毒气体的云，随时间对范围内所有敌人造成伤害，并降低其命中率。",
+			"manaCost": 40,
+			"damage": 30,
+			"duration": 5,
+			"accuracyReduction": 0.5
+		},
+		{
+			"name": "BlessingofProtection",
+			"description": "使友方在短时间内获得无敌状态，免疫所有伤害和负面效果。",
+			"manaCost": 80,
+			"duration": 3
+		},
+		{
+			"name": "SoulDrain",
+			"description": "从敌人身上吸取生命力，造成伤害并恢复施法者的生命值。",
+			"manaCost": 50,
+			"damage": 70,
+			"healAmount": 50
+		},
+		{
+			"name": "FrostNova",
+			"description": "制造一股寒冷的气息，对范围内所有敌人造成伤害并冻结其短暂时间。",
+			"manaCost": 60,
+			"damage": 90,
+			"freezeDuration": 2
+		},
+		{
+			"name": "HolyLight",
+			"description": "召唤神圣之光，对范围内所有敌人造成伤害，并治愈范围内所有友方。",
+			"manaCost": 100,
+			"damage": 120,
+			"healAmount": 150
+		}
+	]
+}
